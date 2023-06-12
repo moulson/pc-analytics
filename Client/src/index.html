@@ -1,0 +1,27 @@
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Client</title>
+    <link href="./index.scss" rel="stylesheet">
+    <link rel="stylesheet" href="https://rsms.me/inter/inter.css">
+</head>
+
+<body>
+    <h1 class="text-3xl font-bold underline">
+        Hello world!
+    </h1>
+    <section class="content">
+        <div class="box gauge">
+            <div class="semi-circle--title">CPU Load</div>
+            <div class="mask">
+                <div class="semi-circle"></div>
+                <div class="semi-circle--mask" id="cpu-gauge"></div>
+            </div>
+            <div class="semi-circle--text" id="cpu-load-text"></div>
+        </div>
+
+    </section>
+    <script type="module" src="client.ts"></script>
+</body>
+
+</html>
