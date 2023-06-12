@@ -475,3 +475,6 @@ $RECYCLE.BIN/
 
 # Windows shortcuts
 *.lnk
+/Client/dist
+/Client/.parcel-cache
+/Client/package-lock.json
